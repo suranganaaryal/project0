@@ -138,3 +138,14 @@ lb $t2, 5($t0)
 sb $t1, 5($t0)
 sb $t2, 6($t0)
 lb $t1, 7($t0)
+lb $t2, 6($t0)
+sb $t1, 6($t0)
+sb $t2, 7($t0)
+lb $t1, 8($t0)
+lb $t2, 7($t0)
+sb $t1, 7($t0)
+sb $t2, 8($t0)
+	
+li $v0,4 #fourth
+la $a0,sid
+syscall
