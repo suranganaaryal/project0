@@ -180,3 +180,15 @@ sb $t1, 6($t0)
 sb $t2, 7($t0)
 lb $t1, 8($t0)
 lb $t2, 7($t0)
+sb $t1, 7($t0)
+sb $t2, 8($t0)
+
+li $v0,4 #fifth
+la $a0,sid
+syscall
+
+lb $t1, 1($t0)
+lb $t2, 0($t0)
+sb $t1, 0($t0)
+sb $t2, 1($t0)
+lb $t1, 2($t0)
