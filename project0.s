@@ -1,5 +1,5 @@
 .data 
-sid: .asciiz "@03069961"
+sid: .asciiz "@03069961\n"
 .text
 
 main:
